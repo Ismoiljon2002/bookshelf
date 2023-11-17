@@ -99,7 +99,7 @@ function Home() {
                 </Toolbar>
 
                 <Box className="cards">
-                    {books?.map(book => <BookCard book={book} key={book} />)}
+                    {books?.map(book => <BookCard book={book} key={book.id} />)}
                 </Box>
 
             </Container>
